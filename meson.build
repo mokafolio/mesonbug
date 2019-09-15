@@ -6,7 +6,7 @@ install_headers(['MyLib/MyLib.hpp'],
 
 incDirs = include_directories('.')
 
-lib = library('Tink', 
+lib = library('MyLib', 
         ['MyLib/MyLib.cpp'],
         include_directories : incDirs,
         install: true)
